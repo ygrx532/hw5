@@ -46,8 +46,9 @@ export function BarChart (props) {
     // that wraps the onMouseOver you defined since it takes d as input.
     
     
-    
-    return <g transform={`translate(${offsetX}, ${offsetY})`}>
-        
-    </g>
 }
+function MyComponent() {
+    return <div>My Component</div>;
+  }
+  
+  export default MyComponent;

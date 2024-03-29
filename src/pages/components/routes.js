@@ -35,4 +35,8 @@ function Routes(props){
     );
 }
 
-export { Routes }
+function MyComponent() {
+    return <div>My Component</div>;
+  }
+  
+  export default MyComponent;

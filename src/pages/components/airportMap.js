@@ -40,3 +40,9 @@ function AirportMap(props) {
 }
 
 export { AirportMap };
+
+function MyComponent() {
+    return <div>My Component</div>;
+  }
+  
+  export default MyComponent;
