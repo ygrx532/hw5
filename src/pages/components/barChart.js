@@ -47,8 +47,5 @@ export function BarChart (props) {
     
     
 }
-function MyComponent() {
-    return <div>My Component</div>;
-  }
-  
-  export default MyComponent;
+
+export default BarChart;
