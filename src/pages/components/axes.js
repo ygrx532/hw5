@@ -1,7 +1,6 @@
 import { line } from "d3";
 import React from "react";
 
-export { XAxis, YAxis };
 //TODO: complete the YAxis
 // 1.Draw the y-axis, using <line>;
 // 2.Draw the ticks, using yScale.domain() to get the ticks (i.e., names of airlines);
@@ -40,4 +39,4 @@ function XAxis(props) {
     
 }
 
-export default {XAxis, YAxis};
+export {XAxis, YAxis};

@@ -1,6 +1,6 @@
 import React from "react";
 import { geoPath, geoMercator } from "d3-geo";
-import { Routes } from './routes'
+import Routes from './routes'
 import { count } from "d3";
 
 function AirportMap(props) {
@@ -39,4 +39,4 @@ function AirportMap(props) {
     </g>;
 }
 
-export { AirportMap };
+export default AirportMap ;
