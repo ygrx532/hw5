@@ -40,3 +40,9 @@ function XAxis(props) {
 }
 
 export {XAxis, YAxis};
+
+function MyComponent() {
+    return <div>My Component</div>;
+  }
+  
+  export default MyComponent;
